@@ -1,0 +1,59 @@
+body{
+    max-width: 1000vh;
+    height: 100%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Times New Roman", Times, serif;
+
+
+}
+
+article{
+    display: flex;
+    color: dimgrey;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 100px;
+    height: 350px;
+    width: 250px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+
+.top-left{
+    font-size: 30px;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+    
+}
+
+article div.mid{
+    font-size: 80px;
+    color: red;
+    display: flex;
+    justify-content: center;
+   
+
+    
+
+}
+
+.bot-right{
+    font-size: 30px;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 10px;
+    transform: rotate(180deg);
+    
+}
+
+
